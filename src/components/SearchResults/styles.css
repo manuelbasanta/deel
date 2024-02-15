@@ -1,0 +1,21 @@
+.result-item {
+    cursor: pointer;
+    padding: 8px;
+    border-bottom: 1px solid #959595;
+}
+
+.result-item:hover {
+    background-color: #dadada;
+}
+
+.result-item:last-of-type {
+    border-bottom: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.results-content {
+    border: 1px solid #959595;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
